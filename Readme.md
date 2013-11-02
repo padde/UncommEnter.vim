@@ -54,7 +54,7 @@ hit <kbd>Enter</kbd> again
 ```
 
 This means you don't have to type <kbd>Esc</kbd>+<kbd>⇧</kbd>+<kbd>S</kbd>
-or <kbd>Ctrl</kbd>+<kbd>u</kbd> any more. UncommEnter is smart enough to not
+or <kbd>Ctrl</kbd>+<kbd>U</kbd> any more. UncommEnter is smart enough to not
 fiddle around with comments when you're in the middle of a multi-line comment
 like this one:
 
