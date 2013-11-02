@@ -121,3 +121,25 @@ hit <kbd>Enter</kbd> twice
 #
 # |
 ```
+
+
+To do
+-----
+
+UncommEnter currently uses `&commentstring` to determine whether the
+current line is an empty comment or not. This has only one form of the
+comment marker for languages like C. Unfortunately, this seems to be
+the multiline form (e.g. `/*  */`) most of the time. This means that
+UncommEnter will not work properly in those languages. However, it does
+not break existing behaviour, it will just not end the comment as
+advertised.
+
+
+Contributing
+------------
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
