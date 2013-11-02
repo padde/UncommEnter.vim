@@ -50,7 +50,7 @@ endif
 " }}}
 
 " {{{ s:IsCommentLine(str)
-function! s:IsComment(str)
+function! s:IsCommentLine(str)
   let commentRegex='^\s*'.substitute(&commentstring,'%s','','')
   return strlen(matchstr(a:str, commentRegex)) > 0
 endfunction
