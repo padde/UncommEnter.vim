@@ -1,7 +1,7 @@
 UncommEnter
 ===========
 
-UncommEnter lets you end a comment series caused by formatoption "r" by
+UncommEnter lets you end a comment series caused by formatoption `r` by
 simply hitting <kbd>Enter</kbd> on the last empty line of a comment.
 
 For more information on usage, options and license, see UncommEnter.txt
