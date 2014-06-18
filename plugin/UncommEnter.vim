@@ -75,7 +75,7 @@ if g:UncommEnterEnabled
     let plug_map = maparg(plug, 'i')
     let map = substitute(map, '.\{-}\(<Plug>\w\+\).*', plug_map, '')
   endif
-  exec "inoremap <expr> <cr> <c-r>=<SID>UncommEnter()<cr>" . map
+  exec "inoremap <silent><script> <cr> <c-r>=<SID>UncommEnter()<cr>" . map
 
 
   " stop the comment series if the current line is only an empty comment
